@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration:none; 
+  list-style:none;
+ 
+}
+body{
+  font-family:helvetica; 
+}
+nav{
+background: black; 
+  margin:0;
+}
+
+/** 1st challenge :Sizing my logo **/
+nav img {
+width:80px;
+  height:80px;
+} 
+/** push my list to the right **/
+nav ul{
+  float:right;
+  margin-right:20px; 
+}
+/** keep my list items in the navbar **/
+nav ul li{
+float:right;
+  line-height:80px; 
+
+  padding:0px 10px;
+}
+nav ul li a {
+  color:white;
+  text-transform:uppercase;
+  padding:20px;
+  font-size:20px;
+}
+nav ul li a:hover{
+  background:lightblue;
+  transition: .5s; 
+  color:black; 
+}
+/** second challenge **/
+ #slider {
+   overflow:hidden ; 
+   width:100%; /** occupy the whole space **/
+   height:700px;
+}
+#slider figure{
+  position : relative; 
+  /** for the 5 images **/
+  width:500%;
+  margin:0;
+  left:0; 
+  animation: 15s slider infinite ; 
+}
+#slider figure img{
+  width:20%;
+  float:left; /** displaying imaging next to each other **/
+
+ /** Css slider animation **/ 
+}
+@keyframes slider{
+0% {
+  left:0 ; 
+}
+  20% {
+  left:0 ; 
+}
+  30% {
+  left:-100% ; 
+}
+  45% {
+  left:-100% ; 
+}
+  50% {
+  left:-200% ; 
+}
+  70% {
+  left:-200% ; 
+}
+  75% {
+  left:-300%; 
+}
+  90% {
+  left:-300% ; 
+}
+  100%{
+    left:-400%;
+  }
+}
+.info{
+  text-align:center;
+  background-color:lightgray;
+  height:330px;
+  width:100%;
+}
+.info p{
+  font-family: georgia;
+
+
+  width:50%;
+  margin-left:25%;
+
+}
+.info h1{
+
+  padding:20px;
+  color:black; 
+}
+.info h2{
+
+  color:black; 
+   padding-bottom:10px;
+  padding-top:20px;
+}
+/** footer challenge**/
+footer {
+  background-color:black;
+  text-align:center;
+  padding-right:20px;
+
+  bottom:0;
+}
+.copyright{
+   font-size:20px;
+  color:white; 
+  font-weight:bold; 
+  
+}
+.social li{
+display:inline-block;
+  padding:20px 20px;
+}
+
+.social ul li a:hover{
+  background-color:lightyellow;
+  color:black;
+  transition:0.5s;
+ 
+}
+footer img{
+
+width:80px;
+  height:80px;
+}
+.fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 30px;
+        }
+ .fa-linkedin {
+            background: lightblue;
+            color: white;
+        }
+.fa-facebook {
+            background: lightblue;
+            color: white;
+        }
+
+.fa-instagram {
+            background: lightblue;
+            color: white;
+        }
+

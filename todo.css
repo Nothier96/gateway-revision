@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;  
+}
+/*body{
+background-image:url('../images/6.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+height:100vh;
+}*/
+ nav ul{
+  float:right;
+  margin-right:20px; 
+}
+nav ul li{
+float:right;
+  line-height:80px; 
+  padding:0px 10px;
+}
+nav ul li a {
+  color:white;
+
+  text-transform:uppercase;
+   padding:20px;
+  font-size:20px;
+}
+nav ul li a:hover{
+  background:lightblue;
+  transition: .5s; 
+  color:black; 
+}
+
+footer {
+ background-color:black;;
+  text-align:center;
+  padding-right:20px;
+
+  bottom:0;
+  margin-top:100px;
+ 
+    
+}
+.copyright{
+   font-size:20px;
+  color:white; 
+
+  font-weight:bold; 
+  
+}
+label.logo {
+  font-size:35px;
+  color:white; 
+  padding: 0px 100px; 
+  line-height:80px;
+  font-weight:bold; 
+}
+
+.social ul li a:hover{
+  background-color:lightyellow;
+  color:black;
+  transition:0.5s;
+ 
+}
+footer img
+{
+width:80px;
+  height:80px;
+}
+ /**To slide my page over a section **/
+ .parallax{
+   background-image: url('../images/6.jpg');
+   height: 500px;
+   background-attachment: fixed; 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+ .title{
+    position:absolute;
+    top : 30%;
+    width:50%;
+    height:100%;
+    margin-left: 30%;
+  }
+  .title h1{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  /**my division for attraction **/
+.container{
+  display:flex;
+  width:100%;
+  justify-content:space-evenly;
+ margin-top:40px;
+  padding-top: 10px;
+}
+   
+.container .attraction{
+    height:350px;
+    width:100%;
+    margin-left: 35px;
+  }
+    
+.container .attraction p{
+    width:350px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: georgia;}
+    
+    .container .attraction h2{
+      font-size:35px;
+      text-align:center;
+       font-family: georgia;
+    }
+    .container .attraction h3{
+    margin-left: 30px;
+    font-size: 18px;
+    padding-top: 10px;
+    color:#a64000;
+    font-family:georgia; }
+ .container .attraction a{
+   color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+    .container .attraction a:hover{
+    background-color:lightgoldenrodyellow;
+  }
+   .social li{
+display:inline-block;
+  padding:20px 20px;
+}
+  .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 30px;
+        }
+ .fa-linkedin {
+            background: lightblue;
+            color: white;
+        }
+.fa-facebook {
+            background: lightblue;
+            color: white;
+        }
+
+.fa-instagram {
+            background: lightblue;
+            color: white;
+        }
+
